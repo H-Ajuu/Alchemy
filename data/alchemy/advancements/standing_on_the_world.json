@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title": "立于此世之上",
+		"description": "击败所有BOSS",
+		"frame": "challenge"
+	},
+	"parent": "alchemy:sky_dream",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		},
+		"2": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

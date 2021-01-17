@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:clay"
+		},
+		"title": "河床淤泥",
+		"description": "研发黏土块的配方",
+		"frame": "task"
+	},
+	"parent": "alchemy:dyehouse",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:clay"
+			}
+		}
+	}
+}

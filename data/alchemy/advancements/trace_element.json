@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget"
+		},
+		"title": "微量元素",
+		"description": "精炼圆石或下界岩",
+		"frame": "task"
+	},
+	"parent": "alchemy:diamond_is_coal",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:blasting/stone-iron_nugget"
+			}
+		},
+		"2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:blasting/netherrack-gold_nugget"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	]
+}

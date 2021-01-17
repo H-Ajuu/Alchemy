@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"title": "无影无踪",
+		"description": "研发末影珍珠的配方",
+		"frame": "task"
+	},
+	"parent": "alchemy:precipitated_impurities",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:ender_pearl"
+			}
+		}
+	}
+}

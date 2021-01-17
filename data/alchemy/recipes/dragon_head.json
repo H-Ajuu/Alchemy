@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+    {
+		"item": "minecraft:skeleton_skull"
+	},
+	{
+		"item": "minecraft:dragon_breath"
+	}
+  ],
+  "result": {
+    "item": "minecraft:dragon_head",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bread"
+		},
+		"title": "烘焙工艺",
+		"description": "烘焙小麦",
+		"frame": "task"
+	},
+	"parent": "alchemy:barbecue_chef",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smelting/wheat-bread"
+			}
+		},
+		"2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smoking/wheat-bread"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	]
+}

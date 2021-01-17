@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head"
+		},
+		"title": "收藏家",
+		"description": "集齐所有头颅",
+		"frame": "challenge"
+	},
+	"parent": "alchemy:dress_up_skull",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:skeleton_skull"
+					},
+					{
+						"item": "minecraft:wither_skeleton_skull"
+					},
+					{
+						"item": "minecraft:zombie_head"
+					},
+					{
+						"item": "minecraft:creeper_head"
+					},
+					{
+						"item": "minecraft:player_head"
+					},
+					{
+						"item": "minecraft:dragon_head"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

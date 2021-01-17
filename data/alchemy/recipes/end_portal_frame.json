@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"232"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:obsidian"
+		},
+		"2": {
+			"item": "minecraft:end_stone"
+		},
+		"3": {
+			"item": "minecraft:bedrock"
+		}
+	},
+	"result": {
+		"item": "minecraft:end_portal_frame",
+		"count": 1
+	}
+}

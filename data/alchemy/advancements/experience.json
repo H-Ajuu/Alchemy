@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:experience_bottle"
+		},
+		"title": "经验+8",
+		"description": "研发附魔之瓶的配方",
+		"frame": "task"
+	},
+	"parent": "alchemy:root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:experience_bottle"
+			}
+		}
+	}
+}

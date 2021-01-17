@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:quartz"
+		},
+		"2": {
+			"item": "minecraft:blaze_powder"
+		},
+		"3": {
+			"item": "minecraft:ghast_tear"
+		}
+	},
+	"result": {
+		"item": "minecraft:nether_star",
+		"count": 1
+	}
+}

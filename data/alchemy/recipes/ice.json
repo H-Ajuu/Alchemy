@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"111",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:snowball"
+		}
+	},
+	"result": {
+		"item": "minecraft:ice",
+		"count": 1
+	}
+}

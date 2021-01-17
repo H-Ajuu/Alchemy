@@ -1,0 +1,90 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lapis_lazuli"
+		},
+		"title": "磨削加工",
+		"description": "用心打磨一种原矿",
+		"frame": "goal"
+	},
+	"parent": "alchemy:turn_stone_into_gold",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/coal_ore"
+			}
+		},
+		"2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/diamond_ore"
+			}
+		},
+		"3": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/emerald_ore"
+			}
+		},
+		"4": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/gilded_blackstone"
+			}
+		},
+		"5": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/gold_ore"
+			}
+		},
+		"6": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/iron_ore"
+			}
+		},
+		"7": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/lapis_ore"
+			}
+		},
+		"8": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/nether_gold_ore"
+			}
+		},
+		"9": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/nether_quartz_ore"
+			}
+		},
+		"10": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:stonecutting/redstone_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9",
+			"10"
+		]
+	],
+	"rewards": {
+		"experience": 10
+	}
+}

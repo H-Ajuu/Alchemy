@@ -1,0 +1,62 @@
+{
+	"type": "alchemy:heaven",
+	"generator": {
+		"type": "minecraft:noise",
+		"seed": 0,
+		"biome_source": {
+			"biome": "minecraft:flower_forest",
+			"type": "minecraft:fixed"
+		},
+		"settings": {
+			"bedrock_roof_position": -10,
+			"bedrock_floor_position": -10,
+			"sea_level": 0,
+			"disable_mob_generation": true,
+			"structures": {
+				"structures": {
+					"minecraft:buried_treasure": {
+						"spacing": 1,
+						"separation": 0,
+						"salt": 0
+					}
+				}
+			},
+			"noise": {
+				"amplified": false,
+				"island_noise_override": false,
+				"random_density_offset": false,
+				"density_factor": 0,
+				"density_offset": 0,
+				"simplex_surface_noise": true,
+				"bottom_slide": {
+					"target": -30,
+					"size": 7,
+					"offset": 1
+				},
+				"size_horizontal": 2,
+				"size_vertical": 1,
+				"height": 128,
+				"sampling": {
+					"xz_scale": 2,
+					"y_scale": 1,
+					"xz_factor": 80,
+					"y_factor": 160
+				},
+				"top_slide": {
+					"target": -3000,
+					"size": 64,
+					"offset": -46
+				}
+			},
+			"default_block": {
+				"Name": "minecraft:dirt"
+			},
+			"default_fluid": {
+				"Properties": {
+					"level": "0"
+				},
+				"Name": "minecraft:water"
+			}
+		}
+	}
+}

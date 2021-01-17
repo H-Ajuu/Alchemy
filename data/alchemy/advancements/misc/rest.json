@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:slept_in_bed"
+		}
+	},
+	"rewards":{
+		"function": "alchemy:rest"
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gold_ore"
+		},
+		"title": "点石成金",
+		"description": "锻造出一种原矿",
+		"frame": "goal"
+	},
+	"parent": "alchemy:trace_element",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/coal_ore"
+			}
+		},
+		"2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/diamond_ore"
+			}
+		},
+		"3": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/emerald_ore"
+			}
+		},
+		"4": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/gilded_blackstone"
+			}
+		},
+		"5": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/gold_ore"
+			}
+		},
+		"6": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/iron_ore"
+			}
+		},
+		"7": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/lapis_ore"
+			}
+		},
+		"8": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/nether_gold_ore"
+			}
+		},
+		"9": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/nether_quartz_ore"
+			}
+		},
+		"10": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:smithing/redstone_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9",
+			"10"
+		]
+	],
+	"rewards": {
+		"experience": 10
+	}
+}

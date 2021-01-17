@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nautilus_shell"
+		},
+		"title": "脆弱的外壳",
+		"description": "研发鹦鹉螺壳的配方",
+		"frame": "task"
+	},
+	"parent": "alchemy:osteosynthesis",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:nautilus_shell"
+			}
+		}
+	}
+}

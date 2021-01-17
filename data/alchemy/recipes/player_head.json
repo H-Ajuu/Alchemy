@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+    {
+		"item": "minecraft:skeleton_skull"
+	},
+	{
+		"item": "minecraft:leather"
+	}
+  ],
+  "result": {
+    "item": "minecraft:player_head",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lily_of_the_valley"
+		},
+		"title": "置之死地而后生",
+		"description": "上天堂",
+		"frame": "challenge"
+	},
+	"parent": "alchemy:immortal",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:used_totem",
+			"conditions": {
+				"item": {
+					"item": "minecraft:totem_of_undying"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

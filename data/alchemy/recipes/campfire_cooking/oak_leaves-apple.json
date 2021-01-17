@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"ingredient": [
+		{
+			"item": "minecraft:oak_leaves"
+		},
+		{
+			"item": "minecraft:dark_oak_leaves"
+		}
+	],
+	"result": "minecraft:apple",
+	"experience": 0,
+	"cookingtime": 100
+}

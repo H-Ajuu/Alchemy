@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": "下界征服者",
+		"description": "研发下界之星的配方",
+		"frame": "goal"
+	},
+	"parent": "alchemy:experience",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:nether_star"
+			}
+		}
+	},
+	"rewards": {
+		"experience": 10
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_shell"
+		},
+		"title": "准备行李箱",
+		"description": "研发潜影壳的配方",
+		"frame": "task"
+	},
+	"parent": "alchemy:lace_suit",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:shulker_shell"
+			}
+		}
+	}
+}

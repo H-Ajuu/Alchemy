@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "minecraft:weeping_vines"
+	},
+	"result": "minecraft:ghast_tear",
+	"experience": 1,
+	"cookingtime": 100
+}

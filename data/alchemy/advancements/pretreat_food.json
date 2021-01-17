@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:apple"
+		},
+		"title": "择菜",
+		"description": "烧去苹果树枝叶",
+		"frame": "task"
+	},
+	"parent": "alchemy:root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:oak_leaves"
+				}
+			}
+		},
+		"2": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:dark_oak_leaves"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	]
+}

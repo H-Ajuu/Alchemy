@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:turtle_egg"
+		},
+		"title": "坚硬的蛋",
+		"description": "研发海龟蛋的配方",
+		"frame": "task"
+	},
+	"parent": "alchemy:hard_bowl",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alchemy:turtle_egg"
+			}
+		}
+	}
+}

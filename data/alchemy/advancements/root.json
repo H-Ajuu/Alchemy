@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:knowledge_book"
+		},
+		"title": "炼金术！",
+		"description": "我的天赋",
+		"frame": "task",
+		"background": "minecraft:textures/block/obsidian.png"
+	},
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"slots": {
+					"occupied": {"min": 1}
+				}
+			}
+		}
+	}
+}
